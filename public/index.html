@@ -40,4 +40,27 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCsMdSmPl6OXN_YpusRS8uaw-o0i7SBzKQ",
+      authDomain: "landing-web-app.firebaseapp.com",
+      projectId: "landing-web-app",
+      storageBucket: "landing-web-app.appspot.com",
+      messagingSenderId: "833689938794",
+      appId: "1:833689938794:web:50af0c4941ef19e6345313",
+      measurementId: "G-09ER0JKJNE",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>

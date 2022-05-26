@@ -1,0 +1,10 @@
+.brand-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-container img {
+    padding: 20px;
+}

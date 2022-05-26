@@ -1,0 +1,66 @@
+.possibility-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.possibility-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 24px;
+}
+
+.possibility-container img {
+    width: auto;
+    height: 45vw;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.possibility-text {
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.possibility-right-early-text {
+    color: #71E5FF;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.possibility-right-early-text {
+    color: #71E5FF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.possibility-right-early-text2 {
+    color: #FF8A71;
+
+}
+
+.possibility-right p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #81AFDD;
+    line-height: 30px;
+    margin: 24px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .possibility-container {
+        flex-direction: column;
+
+    }
+
+    .possibility-right {
+        margin-top: 20px;
+    }
+
+
+    .possibility-container img {
+        width: 65vw;
+        height: auto;
+    }
+}

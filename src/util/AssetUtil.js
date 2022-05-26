@@ -1,0 +1,14 @@
+export { default as AIImg } from "../assets/ai.png";
+export { default as Logo } from "../assets/logo.svg";
+export { default as People } from "../assets/people.png";
+export { default as GoogleImg } from "../assets/google.png";
+export { default as DropBoxImg } from "../assets/dropbox.png";
+export { default as ShopifyImg } from "../assets/shopify.png";
+export { default as AtlassianImg } from "../assets/atlassian.png";
+export { default as Slack } from "../assets/slack.png";
+export { default as PossibilityImg } from "../assets/possibility.png";
+export { default as Blog1Img } from "../assets/blog01.png";
+export { default as Blog2Img } from "../assets/blog02.png";
+export { default as Blog3Img } from "../assets/blog03.png";
+export { default as Blog4Img } from "../assets/blog04.png";
+export { default as Blog5Img } from "../assets/blog05.png";
