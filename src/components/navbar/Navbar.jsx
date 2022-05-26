@@ -6,19 +6,19 @@ import { Logo } from "../../util/AssetUtil";
 
 const Menu = () => (
   <>
-    <Link to="/home" className="links-item">
+    <Link to="/" className="links-item">
       Home
     </Link>
-    <Link to="/wgpt3" className="links-item">
+    <Link to="/" className="links-item">
       What is GPT3
     </Link>
-    <Link to="/possibility" className="links-item">
+    <Link to="/" className="links-item">
       Open AI
     </Link>
-    <Link to="/features" className="links-item">
+    <Link to="/" className="links-item">
       Case Studies
     </Link>
-    <Link to="/blog" className="links-item">
+    <Link to="/" className="links-item">
       Library
     </Link>
   </>
