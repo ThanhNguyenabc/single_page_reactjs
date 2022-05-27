@@ -19,7 +19,7 @@
     background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
 }
 
-.title-container p {
+.title-container h4 {
     font-weight: 800;
     font-size: 22px;
     color: white;
@@ -31,6 +31,7 @@
 
 .whatGPT3-description {
     font-size: 16px;
+    text-align: justify;
     color: #81AFDD;
 }
 
@@ -41,6 +42,8 @@
 .whatGPT3-body-container {
     justify-content: space-between;
     align-items: center;
+    display: flex;
+    flex-direction: row;
     padding: 50px 0;
 }
 
@@ -56,6 +59,11 @@
     font-size: 16px;
 }
 
+.whatGPT3-footer-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .whatGPT3-footer-item {
     flex: 1;
     padding-right: 5rem;
@@ -63,11 +71,21 @@
 
 .whatGPT3-footer-item p {
     margin-top: 10px;
+    text-align: justify;
+    color: #81AFDD;
 }
 
 @media screen and (max-width: 1024px) {
+
+    .whatGPT3-body-container,
     .whatGPT3-footer-container {
+        align-items: flex-start;
+
         flex-direction: column;
+    }
+
+    .whatGPT3-body-container h2 {
+        margin-bottom: 20px;
     }
 
     .whatGPT3-footer-item {

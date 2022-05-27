@@ -4,7 +4,7 @@ import "./whatGPT3.css";
 export const IntroText = ({ text, style }) => (
   <div className={`title-container`}>
     <div className="title-container-line" />
-    <p style={style}>{text}</p>
+    <h4 style={style}>{text}</h4>
   </div>
 );
 
@@ -23,27 +23,27 @@ const WhatGPT3 = () => {
         </p>
       </div>
 
-      <div className="row whatGPT3-body-container">
+      <div className="whatGPT3-body-container">
         <h2>The possibilities are beyond your imagination</h2>
         <h6>Explore The Library</h6>
       </div>
 
       <div className="whatGPT3-footer-container">
-        <div className="colum whatGPT3-footer-item">
+        <div className="whatGPT3-footer-item">
           <IntroText text={"Chatbots"} />
           <p>
             We so opinion friends me message as delight. Whole front do of plate
             heard oh ought.
           </p>
         </div>
-        <div className="colum whatGPT3-footer-item">
+        <div className="whatGPT3-footer-item">
           <IntroText text={"Knowledgebase"} />
           <p>
             At jointure ladyship an insisted so humanity he. Friendly bachelor
             entrance to on by. As put impossible own apartments b
           </p>
         </div>
-        <div className="colum whatGPT3-footer-item">
+        <div className="whatGPT3-footer-item">
           <IntroText text={"Education"} />
           <p>
             At jointure ladyship an insisted so humanity he. Friendly bachelor
