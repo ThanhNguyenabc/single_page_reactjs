@@ -7,6 +7,9 @@ import { Logo } from "../../util/AssetUtil";
 const Menu = () => (
   <>
     <Link to="/" className="links-item">
+      Development Env
+    </Link>
+    <Link to="/" className="links-item">
       Home
     </Link>
     <Link to="/" className="links-item">
