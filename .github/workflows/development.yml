@@ -15,11 +15,11 @@ jobs:
         with:
             node-version: 17.x
 
-      - run : npm install
-      - run : npm run build 
+      - run: npm install
+      - run: npm run build 
       - name: Deploy to Heroku
-          uses: akhileshns/heroku-deploy@v3.12.12
-          with:
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
             args: deploy 
             heroku_api_key: ${{ secrets.HEROKU_SECRET_KEY }}
             heroku_app_name: 'apple-15'
